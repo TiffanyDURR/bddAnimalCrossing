@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  text-transform: capitalize;
+}
+
+body {
+  background-color: #faf2dd;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 320px;
+  border: 1px solid #fec9c3;
+  border-radius: 16px;
+  padding: 16px;
+  text-align: center;
+  justify-content: center;
+  margin: 12px;
+  background-color: rgb(254, 201, 195, 0.35);
+}
+
+.card img {
+  width: 96px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 16px;
+}
+
+.card .inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.serie {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #e981a4;
+  margin-bottom: 2px;
+}
+
+.race {
+  color: #e981a4;
+  margin-bottom: 6px;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 4px;
+  color: #e981a4;
+}
+
+h2 {
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  color: #e981a4;
+}
+
+h1 span {
+  display: flex;
+  background-color: #fec9c3;
+  padding: 4px;
+  border-radius: 4px;
+  color: #e981a4;
+  margin-right: 4px;
+}
+
+h2 span {
+  display: flex;
+  background-color: #fec9c3;
+  padding: 4px;
+  border-radius: 4px;
+  color: #e981a4;
+  margin-right: 4px;
+  font-size: 9px;
+}
+
+.anniversaire svg {
+  width: 23px;
+  display: flex;
+  background-color: #fec9c3;
+  padding: 4px;
+  border-radius: 4px;
+  color: #e981a4;
+  margin-right: 4px;
+  fill: #e981a4;
+}
+
+.anniversaire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #e981a4;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.caractere,
+.style {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #e981a4;
+}
+
+.caractere {
+  font-weight: 700;
+  padding: 8px;
+  background-color: rgb(254, 201, 195, 0.5);
+  border: 1px solid #fec9c3;
+  padding: 6px;
+  border-radius: 4px;
+  color: #e981a4;
+}
+
+.style {
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-right: 16px;
+}
+
+.couleurs {
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #e981a4;
+  font-weight: 600;
+}
