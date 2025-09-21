@@ -20,6 +20,19 @@
 
 body {
   background-color: #faf2dd;
+  display: flex;
+  align-items: baseline;
+}
+
+aside {
+  width: 100%;
+  max-width: 320px;
+  padding: 24px;
+  margin-right: 48px;
+}
+
+aside .card {
+  margin: 0px;
 }
 
 .cards {
@@ -43,6 +56,7 @@ body {
   justify-content: center;
   margin: 12px;
   background-color: rgb(254, 201, 195, 0.35);
+  height: 194px;
 }
 
 .card img {
@@ -179,4 +193,130 @@ h2 span {
   letter-spacing: 1px;
   color: #e981a4;
   font-weight: 600;
+}
+
+.filterL {
+  display: inline-flex;
+  margin-left: 4px;
+  margin-right: 4px;
+  color: #e981a4;
+  font-weight: 600;
+  padding: 8px;
+  background-color: rgb(254, 201, 195, 0.5);
+  border: 1px solid #fec9c3;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+aside .filtres-inner h1 {
+  margin-top: 18px;
+  margin-bottom: 6px;
+  text-align: left;
+  justify-content: left;
+  padding: 12px;
+}
+
+input#search {
+  background-color: rgb(254, 201, 195, 0.5);
+  border: 1px solid #fec9c3;
+  width: 100%;
+  border-radius: 16px;
+  padding: 12px;
+  color: #e981a4;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+input#search::placeholder {
+  color: #e981a4;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.resultat,
+.resultat div {
+  display: flex;
+  align-items: center;
+
+  font-size: 22px;
+  font-weight: 700;
+  color: #e981a4;
+  justify-content: center;
+}
+
+.resultat {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.resultat div {
+  margin-right: 6px;
+}
+
+.trier-par {
+  display: flex;
+  align-items: center;
+}
+
+.trier-par h1 {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.trier-par button {
+  background-color: #fec9c3;
+  padding: 16px;
+  margin-left: 4px;
+  margin-right: 4px;
+  border: 1px solid #e981a4;
+  border-radius: 40px;
+  color: #e981a4;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+#luckyone h1 {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.tag {
+  display: inline-flex;
+  margin-left: 4px;
+  margin-right: 4px;
+  color: #e981a4;
+  font-weight: 600;
+  padding: 8px;
+  background-color: #fec9c3;
+  border: 1px solid #e981a4;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 12px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.tag button {
+  background-color: #e981a4;
+  color: #faf2dd;
+  padding: 4px;
+  font-weight: 700;
+  margin-left: 6px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 10px;
+  cursor: pointer;
 }

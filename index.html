@@ -7,6 +7,48 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <aside class="filtres">
+      <div id="luckyone"></div>
+      <div class="resultat">
+        <div id="resultat"></div>
+        villageois
+      </div>
+
+      <input type="text" id="search" placeholder="rechercher" />
+
+      <div class="trier-par">
+        <h1>Trier par :</h1>
+        <button id="numero">Numéro</button>
+        <button id="anniversaire">Birthday</button>
+      </div>
+
+      <div class="filtres-inner">
+        <div class="selected-filters">
+          <h1>Filtres :</h1>
+          <div id="selected-filters"></div>
+        </div>
+
+        <div class="serie">
+          <h1>Les séries</h1>
+          <div id="serie"></div>
+        </div>
+
+        <div class="race">
+          <h1>Les types d'animaux</h1>
+          <div id="race"></div>
+        </div>
+
+        <div class="caratype">
+          <h1>Les traits de personnalité</h1>
+          <div id="caractere"></div>
+        </div>
+
+        <div class="couleur">
+          <h1>Les couleurs</h1>
+          <div id="couleur"></div>
+        </div>
+      </div>
+    </aside>
     <section class="cards"></section>
     <script type="module" src="index.js"></script>
   </body>
